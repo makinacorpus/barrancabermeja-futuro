@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Barrancabermeja Ciudad Futuro</title>
+
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+
+<link rel="stylesheet" href="assets/Leaflet/dist/leaflet.css" />
+<script type="text/javascript" src="assets/zepto.min.js"></script>
+<script type="text/javascript" src="assets/Leaflet/dist/leaflet.js"></script>
+
+<link rel="stylesheet" href="assets/Leaflet.label/dist/leaflet.label.css" />
+<script type="text/javascript" src="assets/Leaflet.label/dist/leaflet.label.js"></script>
+
+<link rel="stylesheet" href="assets/Leaflet.markercluster/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="assets/Leaflet.markercluster/dist/MarkerCluster.Default.css" />
+<!--[if lte IE 8]><link rel="stylesheet" href="assets/Leaflet.markercluster/dist/MarkerCluster.Default.ie.css" /><![endif]-->
+<script type="text/javascript" src="assets/Leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+<script type="text/javascript" src="assets/handlebars.js"></script>
+<script type="text/javascript" src="assets/map.js"></script>
+
+<link rel="stylesheet" href="assets/icons.css" />
+<link rel="stylesheet" href="assets/style.css" />
+
+<script type="text/javascript" src="barranca.geojson"></script>
+<script type="text/javascript" src="projects.json"></script>
+
+<script id="project-template-popup" type="text/popup-template">
+  <div class="project-popup {{#if image}}big{{/if}}">
+    <h1>{{nom}}</h1>
+    <div class="description">
+      <p>{{{description}}}</p>
+      {{#if manager}}<p class="manager"><span class="label">Maestro mayor de obras :</span> {{manager}}</p>{{/if}}
+      {{#if credits}}<p class="credits"><span class="label">Créditos fotográficos :</span> {{credits}}</p>{{/if}}
+    </div>
+    {{#if image}}<div class="img-container"><img src="images/{{image}}" width="394" alt="{{nom}}" title="{{credits}}"/></div>{{/if}}
+    <div class="meta">{{#if date}}<p class="date"><span class="label">Livraison</span><br/>{{date}}</p>{{/if}}
+    {{#if budget}}<p class="budget"><span class="label">Budget</span><br/>{{budget}} &euro;</p>{{/if}}</div>
+  </div>
+  <i class="icon"></i>
+</script>
+
+</head>
+<body>
+<div id="map"></div>
+<script type="text/javascript">
+    CG41.initializeMap('map');
+</script>
+</body>
+</html>

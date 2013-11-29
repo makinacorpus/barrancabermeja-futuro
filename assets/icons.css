@@ -1,0 +1,356 @@
+/*
+  Leaflet DivIcon has to be centered, so that
+  we don't need to changed the anchor in JS
+  on size change.
+ */
+/*
+ Colors of circle markers for each category
+ */
+.project-icon {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.project-icon.icon3d {
+  -webkit-transition: all .1s;
+  background-size: 153px;
+  width: 153px !important;
+  height: 122.4px !important;
+  margin-left: -76.5px !important;
+  margin-top: -76.5px !important;
+}
+.project-icon.icon3d.hopital,
+.project-icon.icon3d.tourism {
+  width: 153px !important;
+  height: 153px !important;
+  margin-left: -76.5px !important;
+  margin-top: -76.5px !important;
+}
+.zoom-10 .project-icon.icon3d {
+  background-size: 64px;
+  width: 64px !important;
+  height: 51.2px !important;
+  margin-left: -32px !important;
+  margin-top: -32px !important;
+}
+.zoom-10 .project-icon.icon3d.hopital,
+.zoom-10 .project-icon.icon3d.tourism {
+  width: 64px !important;
+  height: 64px !important;
+  margin-left: -32px !important;
+  margin-top: -32px !important;
+}
+.zoom-11 .project-icon.icon3d {
+  background-size: 94px;
+  width: 94px !important;
+  height: 75.2px !important;
+  margin-left: -47px !important;
+  margin-top: -47px !important;
+}
+.zoom-11 .project-icon.icon3d.hopital,
+.zoom-11 .project-icon.icon3d.tourism {
+  width: 94px !important;
+  height: 94px !important;
+  margin-left: -47px !important;
+  margin-top: -47px !important;
+}
+.zoom-15 .project-icon.icon3d {
+  background-size: 214px;
+  width: 214px !important;
+  height: 171.2px !important;
+  margin-left: -107px !important;
+  margin-top: -107px !important;
+}
+.zoom-15 .project-icon.icon3d.hopital,
+.zoom-15 .project-icon.icon3d.tourism {
+  width: 214px !important;
+  height: 214px !important;
+  margin-left: -107px !important;
+  margin-top: -107px !important;
+}
+.project-icon.icon3d.aeroport {
+  background-image: url(../icons/aeroport.png);
+}
+.project-icon.icon3d.voirie {
+  background-image: url(../icons/voirie.png);
+}
+.project-icon.icon3d.ecologie {
+  background-image: url(../icons/ecologie.png);
+}
+.project-icon.icon3d.cheminfer {
+  background-image: url(../icons/cheminfer.png);
+}
+.project-icon.icon3d.tourism {
+  background-image: url(../icons/tourism.png);
+}
+.project-icon.icon3d.eivl {
+  background-image: url(../icons/eivl.png);
+}
+.project-icon.icon3d.outdoorsport {
+  background-image: url(../icons/outdoorsport.png);
+}
+.project-icon.icon3d.hopital {
+  background-image: url(../icons/hopital.png);
+}
+.project-icon.simple {
+  z-index: 999 !important;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  border-radius: 999px;
+  background-size: 28px;
+  width: 36px !important;
+  height: 36px !important;
+  margin-left: -18px !important;
+  margin-top: -18px !important;
+  border-width: 2px;
+  border-style: solid;
+  opacity: 0.6 !important;
+}
+.project-icon.simple.has-popup {
+  border-width: 4px;
+  opacity: 1.0 !important;
+}
+.project-icon.simple.sante {
+  border-color: #d82949;
+  background-color: rgba(216, 41, 73, 0.8);
+  background-image: url(../icons/sante.svg);
+}
+.project-icon.simple.retraite {
+  border-color: #d82993;
+  background-color: rgba(216, 41, 147, 0.8);
+  background-image: url(../icons/citizen.svg);
+}
+.project-icon.simple.ehpad {
+  border-color: #d829b9;
+  background-color: rgba(216, 41, 185, 0.8);
+  background-image: url(../icons/citizen.svg);
+}
+.project-icon.simple.education {
+  border-color: #40bac7;
+  background-color: rgba(64, 186, 199, 0.8);
+  background-image: url(../icons/education.svg);
+}
+.project-icon.simple.bike {
+  border-color: #82c14c;
+  background-color: rgba(130, 193, 76, 0.8);
+  background-image: url(../icons/bike.svg);
+}
+.project-icon.simple.creche {
+  border-color: #106ba7;
+  background-color: rgba(16, 107, 167, 0.8);
+  background-image: url(../icons/creche.svg);
+}
+.project-icon.simple.tourism {
+  border-color: #82c14c;
+  background-color: rgba(130, 193, 76, 0.8);
+  background-image: url(../icons/tourism.svg);
+}
+.project-icon.simple.golf {
+  border-color: #106ba7;
+  background-color: rgba(16, 107, 167, 0.8);
+  background-image: url(../icons/golf.svg);
+}
+.project-icon.simple.sport {
+  border-color: #106ba7;
+  background-color: rgba(16, 107, 167, 0.8);
+  background-image: url(../icons/sport.svg);
+}
+.project-icon.simple.piscine {
+  border-color: #106ba7;
+  background-color: rgba(16, 107, 167, 0.8);
+  background-image: url(../icons/piscine.svg);
+}
+.project-icon.simple.culture {
+  border-color: #9c217b;
+  background-color: rgba(156, 33, 123, 0.8);
+  background-image: url(../icons/culture.svg);
+}
+.project-icon.simple.hotel {
+  border-color: #9c217b;
+  background-color: rgba(156, 33, 123, 0.8);
+  background-image: url(../icons/hotel.svg);
+}
+.project-icon.simple.renovation {
+  border-color: #9c217b;
+  background-color: rgba(156, 33, 123, 0.8);
+  background-image: url(../icons/renovation.svg);
+}
+.project-icon.simple.economie {
+  border-color: #9c217b;
+  background-color: rgba(156, 33, 123, 0.8);
+  background-image: url(../icons/economie.svg);
+}
+.project-icon.simple.zoo {
+  border-color: #82c14c;
+  background-color: rgba(130, 193, 76, 0.8);
+  background-image: url(../icons/zoo.svg);
+}
+.project-icon.simple.bois {
+  border-color: #82c14c;
+  background-color: rgba(130, 193, 76, 0.8);
+  background-image: url(../icons/bois.svg);
+}
+.project-icon.simple.ferme {
+  border-color: #82c14c;
+  background-color: rgba(130, 193, 76, 0.8);
+  background-image: url(../icons/ferme.svg);
+}
+.project-icon.simple.shopping {
+  border-color: #9c217b;
+  background-color: rgba(156, 33, 123, 0.8);
+  background-image: url(../icons/shopping.svg);
+}
+.project-icon.simple.internet {
+  border-color: #9c217b;
+  background-color: rgba(156, 33, 123, 0.8);
+  background-image: url(../icons/internet.svg);
+}
+.leaflet-label {
+  font-family: "Aller", serif;
+  z-index: 999 !important;
+}
+.zoom-10 .leaflet-label,
+.zoom-11 .leaflet-label,
+.zoom-12 .leaflet-label {
+  display: none;
+}
+.leaflet-label.sante {
+  color: #ae203a;
+  border-color: rgba(216, 41, 73, 0.25);
+}
+.leaflet-label.retraite {
+  color: #ae2076;
+  border-color: rgba(216, 41, 147, 0.25);
+}
+.leaflet-label.ehpad {
+  color: #ae2095;
+  border-color: rgba(216, 41, 185, 0.25);
+}
+.leaflet-label.education {
+  color: #3099a4;
+  border-color: rgba(64, 186, 199, 0.25);
+}
+.leaflet-label.bike {
+  color: #69a238;
+  border-color: rgba(130, 193, 76, 0.25);
+}
+.leaflet-label.creche {
+  color: #0c4d78;
+  border-color: rgba(16, 107, 167, 0.25);
+}
+.leaflet-label.tourism {
+  color: #69a238;
+  border-color: rgba(130, 193, 76, 0.25);
+}
+.leaflet-label.golf {
+  color: #0c4d78;
+  border-color: rgba(16, 107, 167, 0.25);
+}
+.leaflet-label.sport {
+  color: #0c4d78;
+  border-color: rgba(16, 107, 167, 0.25);
+}
+.leaflet-label.piscine {
+  color: #0c4d78;
+  border-color: rgba(16, 107, 167, 0.25);
+}
+.leaflet-label.culture {
+  color: #72185a;
+  border-color: rgba(156, 33, 123, 0.25);
+}
+.leaflet-label.hotel {
+  color: #72185a;
+  border-color: rgba(156, 33, 123, 0.25);
+}
+.leaflet-label.renovation {
+  color: #72185a;
+  border-color: rgba(156, 33, 123, 0.25);
+}
+.leaflet-label.economie {
+  color: #72185a;
+  border-color: rgba(156, 33, 123, 0.25);
+}
+.leaflet-label.zoo {
+  color: #69a238;
+  border-color: rgba(130, 193, 76, 0.25);
+}
+.leaflet-label.bois {
+  color: #69a238;
+  border-color: rgba(130, 193, 76, 0.25);
+}
+.leaflet-label.ferme {
+  color: #69a238;
+  border-color: rgba(130, 193, 76, 0.25);
+}
+.marker-cluster {
+  width: 50px !important;
+  height: 50px !important;
+  margin-left: -25px !important;
+  margin-top: -25px !important;
+}
+.marker-cluster.marker-cluster-small,
+.marker-cluster.marker-cluster-medium {
+  background-color: rgba(141, 78, 172, 0.25);
+  border-radius: 999px;
+}
+.marker-cluster div {
+  width: 40px !important;
+  height: 40px !important;
+  background-color: rgba(141, 78, 172, 0.8);
+  border-radius: 999px;
+  color: white;
+}
+.marker-cluster div span {
+  line-height: 40px;
+  font-size: 20px;
+}
+.leaflet-popup .icon {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  bottom: -185px;
+  left: 50%;
+  margin-left: -165px;
+  background-size: 331px;
+  width: 331px;
+  height: 331px;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  -webkit-transition: all 700ms cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transform: translateY(200px);
+}
+.leaflet-popup.aeroport .icon {
+  background-image: url(../icons/aeroport.png);
+}
+.leaflet-popup.voirie .icon {
+  background-image: url(../icons/voirie.png);
+}
+.leaflet-popup.ecologie .icon {
+  background-image: url(../icons/ecologie.png);
+}
+.leaflet-popup.cheminfer .icon {
+  background-image: url(../icons/cheminfer.png);
+}
+.leaflet-popup.tourism .icon {
+  background-image: url(../icons/tourism.png);
+}
+.leaflet-popup.eivl .icon {
+  background-image: url(../icons/eivl.png);
+}
+.leaflet-popup.outdoorsport .icon {
+  background-image: url(../icons/outdoorsport.png);
+}
+.leaflet-popup.hopital .icon {
+  background-image: url(../icons/hopital.png);
+}
+.leaflet-popup.aeroport .meta,
+.leaflet-popup.voirie .meta,
+.leaflet-popup.ecologie .meta,
+.leaflet-popup.tourism .meta,
+.leaflet-popup.eivl .meta,
+.leaflet-popup.outdoorsport .meta,
+.leaflet-popup.hopital .meta {
+  padding-bottom: 105px;
+}
+.leaflet-popup.cheminfer .meta {
+  padding-bottom: 105px;
+}

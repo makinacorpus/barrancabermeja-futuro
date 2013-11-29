@@ -1,0 +1,212 @@
+@font-face {
+  font-family: "Aller";
+  src: url("../fonts/Aller.ttf");
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #eee;
+  -webkit-border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:vertical {
+  background-color: #999;
+  -webkit-border-radius: 8px;
+}
+.bold {
+  font-weight: bold;
+}
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+#map.touch-table {
+  cursor: none!important;
+}
+#map.touch-table a,
+#map.touch-table a:hover {
+  cursor: default!important;
+}
+#map.touch-table .leaflet-clickable {
+  cursor: none!important;
+}
+.leaflet-tile-pane {
+  z-index: 5 !important;
+}
+.leaflet-popup-content-wrapper {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+  background: none;
+}
+.leaflet-popup-content {
+  margin: 0;
+}
+.leaflet-popup-tip {
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
+  background: #a693c0;
+}
+.leaflet-marker-icon.icon3d.popup-open {
+  display: none;
+}
+.leaflet-popup {
+  font-size: 18px;
+  font-family: "Aller", serif;
+  color: #808080;
+}
+.leaflet-fade-anim .leaflet-popup {
+  -webkit-transition: opacity .4s linear;
+}
+.leaflet-popup a.leaflet-popup-close-button {
+  font-size: 48px;
+  line-height: 31.9968px;
+  width: 48px;
+  height: 48px;
+  color: #b3b3b3;
+}
+.leaflet-popup h1,
+.leaflet-popup .description,
+.leaflet-popup .img-container {
+  padding: 5px 10px;
+}
+.leaflet-popup h1 {
+  font-size: 24px;
+  padding-right: 65px;
+  padding-top: 15px;
+  color: black;
+  margin: 0px;
+  line-height: 1em;
+}
+.leaflet-popup p {
+  margin: 5px 0;
+}
+.leaflet-popup p .label {
+  color: #b3b3b3;
+  width: 100px;
+  color: #775699;
+}
+.leaflet-popup p.budget,
+.leaflet-popup p.date {
+  color: white;
+  margin: 0;
+}
+.leaflet-popup p.budget {
+  float: right;
+  text-align: right;
+}
+.leaflet-popup p.date {
+  float: left;
+}
+.leaflet-popup .img-container {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(50%, rgba(168, 149, 193, 0)), color-stop(50%, #a693c0), color-stop(100%, #a693c0));
+  padding: 0 10px;
+  width: 400px;
+}
+.leaflet-popup img {
+  border: 3px solid #EEE;
+  display: block;
+}
+.leaflet-popup .description {
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-height: 210px;
+  min-width: 100px;
+  min-width: 300px;
+  overflow: auto;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 10px;
+  -webkit-overflow-scrolling: touch;
+  background: /* Shadow covers */
+ linear-gradient(#ffffff 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), #ffffff 70%) 0 100%, /* Shadows */
+ radial-gradient(50% 0, farthest-side, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), radial-gradient(50% 100%, farthest-side, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) 0 100%;
+  background: /* Shadow covers */
+ linear-gradient(#ffffff 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), #ffffff 70%) 0 100%, /* Shadows */
+ radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) 0 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+  background-attachment: local, local, scroll, scroll;
+}
+.leaflet-popup .description p:first-child {
+  margin-top: 0;
+}
+.leaflet-popup .meta {
+  padding: 10px 10px 10px 10px;
+  background-color: #a693c0;
+  *zoom: 1;
+}
+.leaflet-popup .meta:before,
+.leaflet-popup .meta:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.leaflet-popup .meta:after {
+  clear: both;
+}
+.leaflet-popup.open .project-popup {
+  -webkit-transform: translateY(0);
+  background: white;
+}
+.leaflet-popup.open .icon {
+  -webkit-transform: translateY(0);
+}
+.leaflet-popup.open .leaflet-popup-tip-container {
+  -webkit-transform: translateY(0);
+}
+.leaflet-popup a.leaflet-popup-close-button {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0ZENzA3NUNDQ0Q2MTFFMkEyQTZGQUQ4MkRBRDY1OTciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0ZENzA3NURDQ0Q2MTFFMkEyQTZGQUQ4MkRBRDY1OTciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3RkQ3MDc1QUNDRDYxMUUyQTJBNkZBRDgyREFENjU5NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3RkQ3MDc1QkNDRDYxMUUyQTJBNkZBRDgyREFENjU5NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Phsmj10AAAEHSURBVHjazNdLCsMgEAZgS7s3xsScptvm4D1Oj9BNXThgWhtfM878MCBDGD7QvJRSavdllLyYYFOzQCTgZmhIQv7gJCH/4iCWEQk4m7uQA1mM40BW40Yim3Ex8kGENGG27R1EgUTDUSABt2BvyYKAJMNhIMlxPchhuBbkcFwNkg0HWU+QgFu5P48AOUW9SQouhUTFXZCR97B++nphDL0hAt++rtFaVOJtTZ1JETiXuXHE4CCOG3mGY0eW4NiQNbjhyBbcN1JT4XT4wXEdM1yYoSXiyJCYOHQkBQ4NSYnrRo7ANSMBtw188BcjOXCQLYfkxGWREnAx8vDG0aEhAZdESsMdkB8BBgD2oiOei627oQAAAABJRU5ErkJggg==);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 7px;
+  z-index: 1;
+}
+.project-popup {
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transform: translateY(-1000px);
+}
+.leaflet-popup-tip-container {
+  -webkit-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transform: translateY(-1000px);
+}
+.touch-table {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}

@@ -1,0 +1,2 @@
+var bordersBarranca = { "type": "FeatureCollection", "features": [{ "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-73.90, 7.013], [-73.78, 7.013], [-73.78, 7.118], [-73.90, 7.118], [-73.90, 7.013] ]
+] }, "properties": { "name": "Barrancabermeja" } } ]};

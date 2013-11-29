@@ -1,0 +1,89 @@
+var projectsData = 
+{
+    "data": [
+        {
+            "category": "voirie",
+            "nom": "Intersección de la Avenida del Ferrocarril con la carrera 28",
+            "description": "Actualmente, la intersección de la carrera 34B con calle 61 representa un punto neurálgico para el transporte de carga y la conectividad Oriente-Occidente de Barrancabermeja. El Plan Maestro de Movilidad del municipio destaca que la intersección presenta una deficiente configuración geométrica (a nivel de altimetría, radios de giro, sobre-anchos, visibilidad, separación y canalización de flujos, entre otros) que repercute en problemas de accidentalidad vial y discontinuidad en los flujos vehiculares y peatonales. Adicional a esto, la intersección está inmersa en un sector comprendido por el corredor de la calle 61 entre la carrera 33 y la calle 66D que presenta problemas de operatividad y conectividad (ya sea por cambios intempestivos en la sección transversal, variaciones pronunciadas en el perfil vial o invasión del espacio público) y en sus intersecciones extremas (calle 61 con carrera 33 y calle 66D con diagonal 60) que inciden en la problemática acontecida en la carrera 34B con calle 61y conducen a contemplar una solución integral para el sector y no exclusivamente para el punto de conflicto señalado. Finalmente, es importante destacar la presencia de la planta de embotellamiento de Postobón S.A. como factor agravante en la deficiente operatividad de la intersección y el sector en general, así como la presencia de la vía Férrea como un elemento que debe ser considerado dentro de la solución a plantear.",
+            "manager": "Barrancabermeja Ciudad Futuro",
+            "image": "b1.jpg",
+            "budget": null,
+            "credits": null,
+            "geom": "[-73.85156,7.06115]",
+            "date": false,
+            "id": "1"
+        },
+        {
+            "category": "voirie",
+            "nom": "Optimización del sistema vial Calle 60 - Postobon",
+            "description": "TODO",
+            "manager": "Barrancabermeja Ciudad Futuro",
+            "image": "b2.jpg",
+            "budget": null,
+            "credits": null,
+            "geom": "[-73.84584,7.07056]",
+            "date": false,
+            "id": "2"
+        },
+        {
+            "category": "voirie",
+            "nom": "Malecón del Río Grande de La Magdalena",
+            "description": "El proyecto del Gran Malecón del Cristo petrolero – Muelle se estable como un proyecto estratégico para la renovación el sector del comercio y del muelle, ya que en la actualidad presenta una imagen negativa a residentes y visitantes, debido al progresivo deterioro del urbanismo del sector, los altos índices de inseguridad, proliferación de botaderos de basuras, entre otros problemas que generan un rechazo por parte de la comunidad, siendo un sitio que a pesar de su potencial turístico por el paso de dos cuerpos de agua como la Ciénaga Miramar y el Tradicional Muelle sobre el río Magdalena, se encuentra en abandono. De acuerdo a lo anterior, se reseña en el Plan de desarrollo la necesidad de fortalecer la oferta turística para generar estrategias que permitan el desarrollo de la actividad turística como una actividad económica, generadora de empleo, armonía social, conocimiento y difusión de los valores culturales de Barrancabermeja, en concordancia con la decisión política de la actual administración de avanzar en el desarrollo turístico de la región, al fortalecimiento de la identidad y al mejoramiento de la calidad de vida de la población. Según lo expuesto anteriormente se deberán realizar los diseños correspondientes a una solución integral que permita desarrollar el sector en un lugar propicio de encuentro y orgullo para todo el Municipio de Barrancabermeja, generador de turismo y conservación ambiental, tomando como modelo casos de exitosos como el Parque de La Ronda del Sinú (Montería) o el Malecón 2.000 (Guayaquil – Ecuador). Se propone realizar el diseño arquitectónico y urbanístico en dos secciones de malecón: Un primer tramo que va desde la Carrera 5 hasta la carrera 11, con una longitud total de 1.150 metros lineales y con un ancho variable entre 15m a 20m sobre la Avenida del Ferrocarril, un segundo tramo desde la Carrera 5 hasta la carrera 1, con una prolongación de 450 metros lineales, y por último un muelle sobre la carrera 1 hasta la Calle 48, de 400m de longitud, hasta llegar al Hotel Pipatón. Adicionalmente al diseño del corredor lineal del Malecón, se contempla el diseño de dos equipamientos comunitarios de aproximadamente 1.500m2 de área construida cada uno, que permita complementar la oferta institucional en el sector de renovación.",
+            "manager": "Barrancabermeja Ciudad Futuro",
+            "image": "b3.jpg",
+            "budget": null,
+            "credits": null,
+            "geom": "[-73.87116,7.05948]",
+            "date": false,
+            "id": "3"
+        },
+        {
+            "category": "eivl",
+            "nom": "Centro Administrativo Municipal y Archivo Municipal",
+            "description": "TODO",
+            "manager": "Barrancabermeja Ciudad Futuro",
+            "image": "b4.jpg",
+            "budget": null,
+            "credits": null,
+            "geom": "[-73.86646,7.06093]",
+            "date": false,
+            "id": "4"
+        },
+        {
+            "category": "outdoorsport",
+            "nom": "Urbanismo Villa Olimpica y Centro Polifuncional de Eventos",
+            "description": "Barrancabermeja cuenta en la actualidad con un área privilegiada destinada para a los estadios y escenarios deportivos (Villa Olímpica), que hasta el momento han permitido que se realicen encuentros deportivos del orden nacional e internacional en múltiples disciplinas, sin embargo esta infraestructura deportiva y recreativa, presenta hoy un deterioro progresivo, debido a la falta de un mantenimiento permanente; por otro lado esta zona no fue planificada integralmente, y se consolidó por etapas desarticuladas desde el punto de vista arquitectónico y urbanístico. Teniendo esta problemática presente y asumiendo el reto, que el plan de desarrollo municipal propende “Ciudad Futuro”, se hace indispensable la organización y proyección de esta zona deportiva; es por esto que la Universidad presenta una propuesta para el diseño urbanístico del espacio público al interior de esta zona, buscando la articulación de la Villa Olímpica en un gran escenario digno de las mejores de ciudades del mundo, considerando que esta zona también albergará el proyecto del Parque Nacional del Agua. Paralelamente se contempla el diseño de un equipamiento o escenario Polifuncional de eventos deportivos, artísticos y culturales, que complementaría la oferta al interior de la Villa Olímpica y que igualmente ayudaría a proteger los estadios y su infraestructura deportiva.",
+            "manager": "Barrancabermeja Ciudad Futuro",
+            "image": "b5.jpg",
+            "budget": null,
+            "credits": null,
+            "geom": "[-73.86227,7.07039]",
+            "date": false,
+            "id": "5"
+        },
+        {
+            "category": "outdoorsport",
+            "nom": "Polideportivos cubiertos",
+            "description": "TODO",
+            "manager": "Barrancabermeja Ciudad Futuro",
+            "image": "b6.jpg",
+            "budget": null,
+            "credits": null,
+            "geom": "[-73.86082,7.05894]",
+            "date": false,
+            "id": "6"
+        },
+        {
+            "category": "eivl",
+            "nom": "Modernización del Instituto Técnico Superior Industrial",
+            "description": "TODO",
+            "manager": "Barrancabermeja Ciudad Futuro",
+            "image": "b7.jpg",
+            "budget": null,
+            "credits": null,
+            "geom": "[-73.85080,7.06354]",
+            "date": false,
+            "id": "7"
+        },
+    ]
+};

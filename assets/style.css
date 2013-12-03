@@ -16,6 +16,14 @@
 .bold {
   font-weight: bold;
 }
+#logo{
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  margin-right: 0;
+  right: 0;
+  top: 0;
+}
 #map {
   position: absolute;
   top: 0;
